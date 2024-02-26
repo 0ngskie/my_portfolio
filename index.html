@@ -1,0 +1,134 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+
+    <title>My Portfolio</title>
+    
+</head>
+
+<body>
+    
+  <header>
+    <ul>
+      <li><a href="#projects"> Projects</a></li>
+      <li><a href="#contacts"> Contacts</a></li>
+    </ul>
+  </header>
+    <br>
+
+    <div>
+      <table>
+        <th>
+        <img src = "https://media.discordapp.net/attachments/1177951663454158941/1209008535963443260/o99nva.jpg?ex=65e55bf1&is=65d2e6f1&hm=a035deca667239836dd8cf265e76390c5b11a21ce97fb25b2c9d7e50382c6a81&=&format=webp" width=" 140" height="140">
+        </th>
+        <th>
+          <h2> Name: John Benedict P. Ong <br> Age: 20 <br> Occupation: Student</h2>
+          <p>Currently taking the course of BSIT.</p>
+        </th>
+        
+      </table>
+      <h2></h2>
+    </div>
+    <div>
+      <div>
+        <section id = "projects">
+
+          <h2> My Projects </h2>
+          <p>Here are some of my projects that I have worked on.</p>
+
+          <table>
+            <th>
+            <div class = "section-border">
+              <h4>Connect Me</h4>
+              <a href="https://www.figma.com/proto/fDEhDsn8y1Q0Fv7K6tk3SS/ConnectMe?type=design&t=D0LcLMau3HkGt9sQ-1&scaling=scale-down&page-id=0%3A1&node-id=8-2&starting-point-node-id=9%3A9&show-proto-sidebar=1&mode=design">
+              <img src = "https://media.discordapp.net/attachments/757499527606566947/1211195407015878726/image.png?ex=65ed509f&is=65dadb9f&hm=78998e9f16c53a4ab1e6da566ae38f29534d0d0b4fb17f6b7ba62992c8052a3a&=&format=webp&quality=lossless&width=919&height=571" width= 250px height = 180px></a>
+              <p>Role: UI designer </p>
+              <p>Connect Me, is a messaging app that me and my team have designed.</p>
+            </div>
+          </th>
+          <th>
+            <div class = "section-border">
+              <h4>[CEU] Library Management System</h4>
+              <a href = "https://www.figma.com/proto/0ad4p6yrIUOaRrZy0hTXwA/LEMS?type=design&node-id=359-2&t=AsupfZ5cCXlmpOfT-1&scaling=min-zoom&page-id=0%3A1&mode=design">
+              <img src = "https://media.discordapp.net/attachments/757499527606566947/1211453920874995722/image.png?ex=65ee4162&is=65dbcc62&hm=7d84b6a73fdbd79ecccefe77d31fd376b4605d59cb34d7acf2a74dc72cd70a20&=&format=webp&quality=lossless&width=760&height=537" width= 250px height = 200px></a>
+              <p>Role: UI Designer</p>
+              <p> The idea behind this LMS, is to develop a System
+                that allows the user to manage the books that they have in their library.
+              </p>
+            </div>
+          </th>
+          <th>
+            <div class = "section-border">
+              <h4>[CEU] Biblioteca Librada</h4>
+              <a href="">
+                <img src = "https://media.discordapp.net/attachments/1177951663454158941/1211458928312066058/image.png?ex=65ee460c&is=65dbd10c&hm=708c625eb7126c0ce2de4ee8f95fcb6934254b2b75aff58b0177edf6722de614&=&format=webp&quality=lossless&width=825&height=462" width =250px height = 200px></a>
+                <p>Role: Database management || UI Designer </p>
+                <p>Biblioteca Librada is a Library Management System that my team have designed. The idea behind this is to develop a System
+                  that allows the user to manage the books that they have in their library.
+                </p>
+            </div>
+          </th>
+          </table>
+        </section>
+      </div>
+
+      <br>
+      <section id = "contacts">
+        <table>
+          <th>
+            <form class = "form" action = "mailto: ongjohnbenedict2@gmail.com" method = "post" enctype="text/plain">
+              <label for = "name">Name: </label>
+              <br>
+              <input type = "text" name = "name" id = "name">
+              <br>
+              <label for = "email">Email: </label>
+              <br>
+              <input type="email" id = "email" name = "email">
+              <br>
+              <label for = "message">Message: </label>
+              <br>
+              <textarea id = "message" name = "message" rows = "4" cols = "50"></textarea>
+              <br>
+              <input type = "submit" value = "Submit">
+            </form>
+          </th>
+        </table>
+        
+      </section>
+
+    </div>
+    <footer>
+      <table>
+        
+        <th>
+          <div class ="Copyright">            
+            <p>Copyright &copy; 2024 <NAME>OK Enterprise</p>
+          </div>
+        </th>
+
+        <th>
+        <div class="icon">
+                  
+          <a href ="www.linkedin.com/in/john-benedict-ong-155000262">
+          <img src = "https://media.discordapp.net/attachments/1177951663454158941/1211337762318319676/image.png?ex=65edd534&is=65db6034&hm=687ca77da60f341a5e73a8e1a9125bd76059b40feaf61b144b2287825f816e82&=&format=webp&quality=lossless&width=571&height=571" width= 30px height= 30px></a>
+
+          <a href = "https://github.com/0ngskie">
+          <img src = "https://media.discordapp.net/attachments/1177951663454158941/1211337762545074176/image.png?ex=65edd534&is=65db6034&hm=edbc93769bbea1f355fd9c5a04b5f492e118fbd885cd8b09e5db9ea72eac12d7&=&format=webp&quality=lossless&width=571&height=571"width= 30px height= 30px></a>
+          
+          <a href = "https://discord.com/invite/AezHvYv3">
+          <img src ="https://media.discordapp.net/attachments/1177951663454158941/1211337762905653289/image.png?ex=65edd534&is=65db6034&hm=9303bcae59a2767b49981fa0f7b476f89d59009c3e6788af447eef188d5c7478&=&format=webp&quality=lossless&width=571&height=571"width= 30px height= 30px></a>
+
+          <a href = "https://youtube.com/@0ngskie214?si=hmQ2TUXGxi2wvZeL">
+          <img src = "https://media.discordapp.net/attachments/1177951663454158941/1211343037951770714/image.png?ex=65edda1d&is=65db651d&hm=36cc9b2b2f0df8efe5c4045661bff3d890440c4725e304e12008e27943db3ae1&=&format=webp&quality=lossless&width=571&height=571"width= 30px height= 30px></a>
+        </div>
+         </th>
+    </table>
+    </footer>
+</body>
+</html>
